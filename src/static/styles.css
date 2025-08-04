@@ -63,6 +63,36 @@ section h3 {
   border: 1px solid #ddd;
   border-radius: 5px;
   background-color: #f9f9f9;
+  box-shadow: 0 2px 8px rgba(44,62,80,0.06);
+  transition: box-shadow 0.2s;
+}
+.activity-card:hover {
+  box-shadow: 0 4px 20px rgba(44,62,80,0.12);
+}
+
+.participants-section {
+  margin-top: 1em;
+  background: #f0f4ff;
+  border-radius: 8px;
+  padding: 1em 1.2em;
+  box-shadow: 0 1px 4px rgba(42,77,143,0.04);
+}
+.participants-section h5 {
+  margin-top: 0;
+  font-size: 1.08em;
+  color: #2a4d8f;
+  letter-spacing: 0.02em;
+}
+.participants-section ul {
+  margin: 0.5em 0 0 1.2em;
+  padding: 0;
+}
+.participants-section li {
+  font-size: 0.97em;
+  color: #2d3a4a;
+  margin-bottom: 0.25em;
+  list-style-type: disc;
+}
 }
 
 .activity-card h4 {
